@@ -1,0 +1,10 @@
+<input
+  (clrDateChange)="handleMinChange($event)"
+  placeholder="Min Date"
+  type="date" clrDate [(ngModel)]="minDate" />
+
+
+<input
+  placeholder="Max Date"
+  (clrDateChange)="handleMaxChange($event)"
+  type="date" clrDate [(ngModel)]="maxDate" />
